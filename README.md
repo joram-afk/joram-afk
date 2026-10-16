@@ -7,8 +7,11 @@ tiny 👏 Developer
 
 ## 🎧 Spotify Data Card
 
-<!-- Replace with your own card link/image from the Spotify stats service you use (the one in the video was iodev.io/s-d-c). It needs you to connect your own Spotify account. -->
-![Spotify Data](YOUR_SPOTIFY_CARD_URL)
+<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=31pdu5r3jy35rwqg3dvi37yqhjde">
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31pdu5r3jy35rwqg3dvi37yqhjde" alt="Data Card for Spotify">
+</a>
+
+this is the Spotify card
 
 ---
 
