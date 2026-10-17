@@ -25,12 +25,6 @@ tiny 👏 Developer
 
 ---
 
-## 📄 Resume
-
-[Joram - Data Annotation Resume](./Joram_Data_Annotation_Resume.pdf)
-
----
-
 ## 🎨 About Me
 
 <h3 align="center">Building fintech for Kenya — mobile money, data pipelines, and reliable backend systems.</h3>
