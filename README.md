@@ -11,8 +11,6 @@ tiny 👏 Developer
   <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31pdu5r3jy35rwqg3dvi37yqhjde" alt="Data Card for Spotify">
 </a>
 
-this is the Spotify card
-
 ---
 
 ## 🌟 GitHub Stats
@@ -25,29 +23,30 @@ this is the Spotify card
 - ![Repos](https://img.shields.io/badge/PUBLIC%20REPOSITORIES-0-f0c040?style=for-the-badge&logo=github&labelColor=555)
 - ![Profile Views](https://komarev.com/ghpvc/?username=joram-afk&style=for-the-badge&color=4c1)
 
-<!-- Edit the "Following", "Since" and "Repos" numbers by hand, or delete those lines. -->
+---
+
+## 📄 Resume
+
+[Joram - Data Annotation Resume](./Joram_Data_Annotation_Resume.pdf)
 
 ---
 
 ## 🎨 About Me
 
-<h3 align="center">Your one-line tagline here.</h3>
+<h3 align="center">Building fintech for Kenya — mobile money, data pipelines, and reliable backend systems.</h3>
 
 ---
 
 ## 🛠️ Skills & Stack
 
 - **Focus:** Fintech, mobile money, backend and app development
-- **Languages & Tools:**
-  - Add your languages here
-  - Add your tools here
+- **Languages & Tools:** Python, JavaScript, TypeScript, Node.js, PostgreSQL, Docker, Git, AWS
 - **Currently building:** Joe Cash
 
 ---
 
 ## 💬 Fun Facts
 
-- Add a fun fact about you
 - Always open to collabs
 
-> "Your favorite quote here."
+> "I turn messy data and mobile-money edge cases into dependable payments experiences that scale for millions."
