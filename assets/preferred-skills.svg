@@ -1,161 +1,189 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 980" role="img" aria-labelledby="title desc">
   <title id="title">Preferred Skills</title>
-  <desc id="desc">A dark-mode skill card with language and tool badges and a cartoon character holding a gold coin.</desc>
+  <desc id="desc">A dark-mode preferred skills card matching the provided mockup with a red cartoon mascot holding a gold star coin.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#141a24"/>
-      <stop offset="100%" stop-color="#0f1726"/>
+    <linearGradient id="panelBg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171f2e"/>
+      <stop offset="100%" stop-color="#101a2a"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" x2="1">
-      <stop offset="0%" stop-color="#ffdb4d"/>
-      <stop offset="50%" stop-color="#ff6f61"/>
-      <stop offset="100%" stop-color="#4a8bff"/>
+    <linearGradient id="navBg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a2435"/>
+      <stop offset="100%" stop-color="#0d1726"/>
     </linearGradient>
+    <linearGradient id="coinGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe58f"/>
+      <stop offset="52%" stop-color="#f4c84a"/>
+      <stop offset="100%" stop-color="#d69f1e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.24"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.22"/>
     </filter>
   </defs>
 
-  <rect width="960" height="760" fill="url(#bg)"/>
+  <rect width="1000" height="980" fill="#111821"/>
 
-  <g opacity="0.9">
-    <circle cx="75" cy="36" r="6" fill="#fff"/>
-    <circle cx="92" cy="36" r="6" fill="#fff" opacity="0.7"/>
-    <circle cx="109" cy="36" r="6" fill="#fff" opacity="0.5"/>
-    <rect x="770" y="60" width="110" height="20" rx="10" fill="#1e293b"/>
-  </g>
+  <g>
+    <rect x="36" y="26" width="928" height="860" rx="26" fill="url(#panelBg)" stroke="#243244"/>
 
-  <text x="60" y="118" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#e5e7eb" font-weight="700">Git-FED</text>
-  <text x="214" y="118" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#f8fafc" font-weight="700">www.fedpromptly.com</text>
+    <g opacity="0.95">
+      <path d="M54 86h120" stroke="#324257" stroke-width="2"/>
+      <path d="M52 100h165" stroke="#324257" stroke-width="2"/>
+      <path d="M825 64h84" stroke="#314256" stroke-width="2"/>
+      <rect x="835" y="74" width="68" height="16" rx="8" fill="#1a2739"/>
+    </g>
 
-  <g transform="translate(800 80)">
-    <circle cx="20" cy="20" r="18" fill="none" stroke="#dbeafe" stroke-width="2"/>
-    <circle cx="20" cy="20" r="8" fill="#dbeafe" opacity="0.3"/>
-    <path d="M42 5 L46 15 L57 19 L46 23 L42 34 L38 23 L27 19 L38 15 Z" fill="#f59e0b" opacity="0.8"/>
-  </g>
+    <g fill="#f3f5f7">
+      <text x="54" y="90" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Git-FED</text>
+      <text x="205" y="90" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">www.fedpromptly.com</text>
+    </g>
 
-  <text x="48" y="170" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="#f8fafc" font-weight="800">Preferred Skills</text>
+    <g transform="translate(823 28)">
+      <circle cx="20" cy="20" r="18" fill="none" stroke="#d9ebff" stroke-width="2"/>
+      <circle cx="20" cy="20" r="8" fill="#d9ebff" opacity="0.25"/>
+      <path d="M42 5 L46 15 L57 19 L46 23 L42 34 L38 23 L27 19 L38 15 Z" fill="#f5c648" opacity="0.9"/>
+    </g>
 
-  <rect x="48" y="190" width="864" height="290" rx="18" fill="#111827" stroke="#243243"/>
-  <g transform="translate(58,198)" filter="url(#softShadow)">
-    <g>
-      <rect x="0" y="0" width="180" height="84" rx="10" fill="#1b2e3b"/>
-      <rect x="0" y="0" width="180" height="84" rx="10" fill="#1a1f2c"/>
-      <text x="28" y="52" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#f8fafc">Python</text>
+    <g transform="translate(64 118)">
+      <text x="0" y="54" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#f5f7fa">Preferred Skills</text>
     </g>
-    <g transform="translate(190 0)">
-      <rect width="180" height="84" rx="10" fill="#f2c335"/>
-      <text x="26" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#111827">JavaScript</text>
-    </g>
-    <g transform="translate(380 0)">
-      <rect width="180" height="84" rx="10" fill="#2a2d38"/>
-      <text x="26" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#f8fafc">Three.js</text>
-    </g>
-    <g transform="translate(570 0)">
-      <rect width="180" height="84" rx="10" fill="#1d2433"/>
-      <text x="38" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#f8fafc">Electron</text>
-    </g>
-    <g transform="translate(760 0)">
-      <rect width="180" height="84" rx="10" fill="#101d2d"/>
-      <text x="38" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#f8fafc">Actions</text>
-    </g>
-    <g transform="translate(0 94)">
-      <rect width="180" height="84" rx="10" fill="#d93939"/>
-      <text x="52" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">Git</text>
-    </g>
-    <g transform="translate(190 94)">
-      <rect width="180" height="84" rx="10" fill="#2348b4"/>
-      <text x="26" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">HTML5</text>
-    </g>
-    <g transform="translate(380 94)">
-      <rect width="180" height="84" rx="10" fill="#1d3d7a"/>
-      <text x="30" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">CSS3</text>
-    </g>
-    <g transform="translate(570 94)">
-      <rect width="180" height="84" rx="10" fill="#2f546b"/>
-      <text x="44" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">Tauri</text>
-    </g>
-    <g transform="translate(760 94)">
-      <rect width="180" height="84" rx="10" fill="#1c232d"/>
-      <text x="28" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">Streamlit</text>
-    </g>
-    <g transform="translate(0 188)">
-      <rect width="180" height="84" rx="10" fill="#111827"/>
-      <text x="30" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">GitHub</text>
-    </g>
-    <g transform="translate(190 188)">
-      <rect width="180" height="84" rx="10" fill="#1d2028"/>
-      <text x="34" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">Vercel</text>
-    </g>
-    <g transform="translate(380 188)">
-      <rect width="180" height="84" rx="10" fill="#16202b"/>
-      <text x="34" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">Postgres</text>
-    </g>
-    <g transform="translate(570 188)">
-      <rect width="180" height="84" rx="10" fill="#1a243c"/>
-      <text x="48" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">Docker</text>
-    </g>
-    <g transform="translate(760 188)">
-      <rect width="180" height="84" rx="10" fill="#111827"/>
-      <text x="38" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#fff">AWS</text>
-    </g>
-  </g>
 
-  <g transform="translate(0, 0)">
-    <rect x="118" y="480" width="724" height="210" rx="24" fill="none"/>
-    <path d="M450 604 l55 -85 l65 55 l72 -110 l85 120" fill="none" stroke="#f7ca43" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-    <path d="M366 465 L406 555 L455 530" fill="none" stroke="#f7ca43" stroke-width="8" stroke-linecap="round"/>
-    <path d="M593 432 L628 536 L686 505" fill="none" stroke="#f7ca43" stroke-width="8" stroke-linecap="round"/>
-  </g>
+    <g filter="url(#shadow)">
+      <rect x="54" y="182" width="892" height="432" rx="18" fill="#0d1b2b" stroke="#243244"/>
+    </g>
 
-  <g transform="translate(260 410)" filter="url(#softShadow)">
-    <g>
-      <path d="M80 230 C25 228, -8 185, 5 130 C16 74, 63 14, 120 21 C164 26, 194 56, 221 97 C247 144, 286 153, 304 180 C322 203, 315 244, 278 264 C204 312, 124 285, 80 230 Z" fill="#ff6b6b"/>
-      <circle cx="112" cy="128" r="38" fill="#f5f5f5"/>
-      <circle cx="196" cy="128" r="38" fill="#f5f5f5"/>
-      <circle cx="112" cy="128" r="17" fill="#1f2937"/>
-      <circle cx="196" cy="128" r="17" fill="#1f2937"/>
-      <path d="M110 176 Q154 220 199 176" fill="none" stroke="#1f2937" stroke-width="12" stroke-linecap="round"/>
-      <path d="M80 146 Q64 112 90 87" fill="none" stroke="#1f2937" stroke-width="10" stroke-linecap="round"/>
-      <path d="M230 146 Q246 112 220 87" fill="none" stroke="#1f2937" stroke-width="10" stroke-linecap="round"/>
-      <path d="M212 212 C236 228, 257 247, 278 270" fill="none" stroke="#ff8a8a" stroke-width="18" stroke-linecap="round"/>
-      <path d="M128 208 C110 232, 91 251, 72 270" fill="none" stroke="#ff8a8a" stroke-width="18" stroke-linecap="round"/>
-      <circle cx="74" cy="280" r="20" fill="#f0c75e"/>
-      <circle cx="78" cy="286" r="6" fill="#f9ed84"/>
-      <path d="M102 256 L123 282 L142 246 L163 282 L184 256 L205 282 L221 247" fill="none" stroke="#f5c451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="294" cy="170" r="42" fill="#f6d55d"/>
-      <circle cx="294" cy="170" r="38" fill="#f8e27a"/>
-      <path d="M294 126 L304 155 L336 155 L310 177 L319 208 L294 189 L269 208 L278 177 L252 155 L284 155 Z" fill="#f7c948"/>
-      <path d="M340 177 C360 172, 382 181, 391 197" fill="none" stroke="#f6d55d" stroke-width="7" stroke-linecap="round"/>
-      <path d="M255 163 C236 167, 214 177, 205 195" fill="none" stroke="#f6d55d" stroke-width="7" stroke-linecap="round"/>
-    </g>
-  </g>
+    <g transform="translate(68 200)">
+      <g>
+        <rect x="0" y="0" width="160" height="78" rx="12" fill="#1a2f41"/>
+        <text x="36" y="48" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#f7f8fa">Python</text>
+      </g>
+      <g transform="translate(170 0)">
+        <rect width="190" height="78" rx="12" fill="#f4c430"/>
+        <text x="32" y="49" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#0f1726">JavaScript</text>
+      </g>
+      <g transform="translate(370 0)">
+        <rect width="170" height="78" rx="12" fill="#393f4d"/>
+        <text x="26" y="49" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800" fill="#edf3f8">Three.js</text>
+      </g>
+      <g transform="translate(550 0)">
+        <rect width="170" height="78" rx="12" fill="#1d2435"/>
+        <text x="28" y="49" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#edf3f8">Electron</text>
+      </g>
+      <g transform="translate(730 0)">
+        <rect width="160" height="78" rx="12" fill="#1d2435"/>
+        <text x="30" y="49" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#edf3f8">Actions</text>
+      </g>
 
-  <g opacity="0.95">
-    <path d="M155 650 c-18 -44 5 -82 42 -97 c38 -15 86 0 102 34 c20 43 -8 92 -58 103 c-51 12 -76 -11 -86 -40 z" fill="#ff6b6b"/>
-    <path d="M359 675 c-18 -44 5 -82 42 -97 c38 -15 86 0 102 34 c20 43 -8 92 -58 103 c-51 12 -76 -11 -86 -40 z" fill="#ff6b6b"/>
-    <path d="M598 644 c-18 -45 5 -82 42 -98 c38 -15 85 1 102 36 c20 43 -8 91 -58 102 c-51 12 -76 -11 -86 -40 z" fill="#ff6b6b"/>
-    <path d="M303 707 c-5 -34 17 -60 52 -60 c34 0 60 26 60 60 c0 20 -8 33 -17 38 L323 745 c-10 -6 -20 -19 -20 -38 z" fill="#ff6b6b"/>
-    <path d="M516 708 c-5 -34 17 -60 52 -60 c34 0 60 26 60 60 c0 20 -8 33 -17 38 L536 744 c-10 -6 -20 -19 -20 -38 z" fill="#ff6b6b"/>
-  </g>
+      <g transform="translate(0 92)">
+        <rect width="160" height="78" rx="12" fill="#dc3f2a"/>
+        <text x="56" y="49" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#ffffff">Git</text>
+      </g>
+      <g transform="translate(170 92)">
+        <rect width="190" height="78" rx="12" fill="#2548ad"/>
+        <text x="38" y="49" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#ffffff">HTML5</text>
+      </g>
+      <g transform="translate(370 92)">
+        <rect width="170" height="78" rx="12" fill="#1a4a9b"/>
+        <text x="32" y="49" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800" fill="#ffffff">CSS3</text>
+      </g>
+      <g transform="translate(550 92)">
+        <rect width="170" height="78" rx="12" fill="#2c4d69"/>
+        <text x="44" y="49" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#ffffff">Tauri</text>
+      </g>
+      <g transform="translate(730 92)">
+        <rect width="160" height="78" rx="12" fill="#1d2435"/>
+        <text x="26" y="49" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#edf3f8">Streamlit</text>
+      </g>
 
-  <g transform="translate(110 690)">
-    <rect x="0" y="0" width="740" height="52" rx="12" fill="#101929"/>
-    <g transform="translate(22 10)">
-      <rect width="130" height="30" rx="8" fill="#1d3a72"/>
-      <text x="34" y="20" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#fff" font-weight="700">Home</text>
+      <g transform="translate(0 184)">
+        <rect width="160" height="78" rx="12" fill="#0d1621"/>
+        <text x="18" y="49" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#ffffff">GitHub</text>
+      </g>
+      <g transform="translate(170 184)">
+        <rect width="190" height="78" rx="12" fill="#1b1f29"/>
+        <text x="52" y="49" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#ffffff">Vercel</text>
+      </g>
+      <g transform="translate(370 184)">
+        <rect width="170" height="78" rx="12" fill="#17273d"/>
+        <text x="24" y="49" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#ffffff">Postgres</text>
+      </g>
+      <g transform="translate(550 184)">
+        <rect width="170" height="78" rx="12" fill="#1a2d45"/>
+        <text x="34" y="49" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#ffffff">Docker</text>
+      </g>
+      <g transform="translate(730 184)">
+        <rect width="160" height="78" rx="12" fill="#0d1621"/>
+        <text x="44" y="49" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#ffffff">AWS</text>
+      </g>
     </g>
-    <g transform="translate(212 10)">
-      <rect width="130" height="30" rx="8" fill="#1b2330"/>
-      <text x="32" y="20" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#fff" font-weight="700">Inbox</text>
+
+    <g transform="translate(0 0)">
+      <path d="M134 626 C118 604, 126 573, 156 566 C186 559, 206 583, 210 612 C214 642, 205 674, 176 685 C147 696, 128 650, 134 626 Z" fill="#ff6b6b" opacity="0.95"/>
+      <path d="M180 624 C203 596, 249 588, 291 607 C335 627, 345 690, 304 711 C265 731, 206 724, 180 688 C160 660, 164 644, 180 624 Z" fill="#ff6b6b" opacity="0.96"/>
+      <path d="M310 634 C330 590, 382 574, 428 586 C484 599, 524 654, 516 711 C508 764, 448 792, 390 778 C330 763, 292 701, 310 634 Z" fill="#ff6b6b" opacity="0.96"/>
+      <path d="M500 640 C528 596, 585 584, 633 603 C685 624, 708 695, 676 734 C641 776, 572 794, 516 764 C488 748, 461 709, 500 640 Z" fill="#ff6b6b" opacity="0.96"/>
     </g>
-    <g transform="translate(402 10)">
-      <rect width="130" height="30" rx="8" fill="#1b2330"/>
-      <text x="30" y="20" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#fff" font-weight="700">Explore</text>
+
+    <g transform="translate(179 390)" filter="url(#softShadow)">
+      <ellipse cx="300" cy="190" rx="232" ry="138" fill="#ff6b6b"/>
+      <ellipse cx="250" cy="204" rx="231" ry="142" fill="#ff7d7d" opacity="0.35"/>
+      <g>
+        <circle cx="224" cy="160" r="72" fill="#f5f5f5"/>
+        <circle cx="416" cy="160" r="72" fill="#f5f5f5"/>
+        <circle cx="224" cy="163" r="31" fill="#1d2330"/>
+        <circle cx="416" cy="163" r="31" fill="#1d2330"/>
+        <path d="M200 264 Q316 326 427 264" fill="none" stroke="#1d2330" stroke-width="14" stroke-linecap="round"/>
+        <path d="M177 180 Q118 150 112 222" fill="none" stroke="#1d2330" stroke-width="12" stroke-linecap="round"/>
+        <path d="M465 180 Q523 150 528 222" fill="none" stroke="#1d2330" stroke-width="12" stroke-linecap="round"/>
+        <path d="M206 114 Q150 171 188 210" fill="none" stroke="#1d2330" stroke-width="10" stroke-linecap="round"/>
+        <path d="M436 114 Q492 171 455 210" fill="none" stroke="#1d2330" stroke-width="10" stroke-linecap="round"/>
+      </g>
+      <g>
+        <circle cx="588" cy="120" r="74" fill="url(#coinGrad)" stroke="#edb42d" stroke-width="7"/>
+        <path d="M588 74 L601 108 L640 108 L610 133 L622 170 L588 148 L554 170 L566 133 L536 108 L575 108 Z" fill="#f8dd70"/>
+      </g>
+      <g stroke="#f7d85a" stroke-width="8" stroke-linecap="round" opacity="0.95">
+        <path d="M588 16 L588 46"/>
+        <path d="M556 38 L566 64"/>
+        <path d="M620 38 L610 64"/>
+        <path d="M532 72 L562 88"/>
+        <path d="M642 72 L612 88"/>
+      </g>
+      <g>
+        <path d="M328 330 C345 355, 378 356, 398 332" fill="none" stroke="#f0a4a4" stroke-width="16" stroke-linecap="round"/>
+        <path d="M278 340 C256 365, 217 372, 180 355" fill="none" stroke="#ef9d9d" stroke-width="16" stroke-linecap="round"/>
+      </g>
     </g>
-    <g transform="translate(592 10)">
-      <rect width="130" height="30" rx="8" fill="#1b2330"/>
-      <text x="28" y="20" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#fff" font-weight="700">Copilot</text>
+
+    <g transform="translate(0 0)">
+      <g opacity="0.35">
+        <path d="M108 684 C146 665, 190 678, 205 710 C220 742, 207 780, 172 797 C136 814, 96 791, 80 752 C64 716, 74 700, 108 684 Z" fill="#ff6b6b"/>
+        <path d="M660 664 C705 639, 766 645, 787 690 C809 737, 790 789, 743 808 C691 829, 624 802, 609 756 C596 714, 613 686, 660 664 Z" fill="#ff6b6b"/>
+      </g>
+    </g>
+
+    <g transform="translate(52 760)">
+      <rect x="0" y="0" width="896" height="90" rx="14" fill="url(#navBg)"/>
+      <g fill="#dfe7f4" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+        <g transform="translate(50 22)">
+          <rect x="0" y="0" width="170" height="46" rx="10" fill="#1e3357"/>
+          <text x="70" y="31" font-size="22">Home</text>
+        </g>
+        <g transform="translate(260 22)">
+          <rect x="0" y="0" width="170" height="46" rx="10" fill="#1f2733"/>
+          <text x="56" y="31" font-size="22">Inbox</text>
+        </g>
+        <g transform="translate(470 22)">
+          <rect x="0" y="0" width="170" height="46" rx="10" fill="#1f2733"/>
+          <text x="44" y="31" font-size="22">Explore</text>
+        </g>
+        <g transform="translate(680 22)">
+          <rect x="0" y="0" width="170" height="46" rx="10" fill="#1f2733"/>
+          <text x="48" y="31" font-size="22">Copilot</text>
+        </g>
+      </g>
     </g>
   </g>
 </svg>
