@@ -5,11 +5,9 @@ tiny 👏 Developer
 
 ---
 
-## 🎧 Spotify Data Card
+## Preferred Skills
 
-<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=31pdu5r3jy35rwqg3dvi37yqhjde">
-  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31pdu5r3jy35rwqg3dvi37yqhjde" alt="Data Card for Spotify">
-</a>
+<img src="assets/preferred-skills.svg" alt="Preferred Skills" width="100%" />
 
 ---
 
