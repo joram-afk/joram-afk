@@ -13,7 +13,7 @@
 ## 👨‍💻 About Me
 
 - 🛒 Planning **Skilly**, an online shopping marketplace where sellers post their own listings
-- 💻 I vibe code everything in existence 🚀
+- I'm not lazy, I reached my limit 
 - 🏅 Anthropic certification badge holder
 
 ---
