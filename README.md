@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00C896&center=true&vCenter=true&width=500&lines=Hi,+I'm+Joram+%F0%9F%91%8B;Full-stack+Developer;UI+Designer;Data+Science+Student" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00C896&center=true&vCenter=true&width=500&lines=Hi,+I'm+Joram+%F0%9F%91%8B;Full-stack+Developer;UI+Designer" alt="Typing SVG" />
 
 ![Profile Views](https://komarev.com/ghpvc/?username=joram-afk&label=Profile%20Views&color=00c896&style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/joram-afk?style=for-the-badge&logo=github&color=00c896)
@@ -12,7 +12,6 @@
 
 ## 👨‍💻 About Me
 
-- 🎓 Studying Bachelor of Applied Statistics and Data Science
 - 🛒 Planning **Skilly**, an online shopping marketplace where sellers post their own listings
 - 💻 I vibe code everything in existence 🚀
 - 🏅 Anthropic certification badge holder
